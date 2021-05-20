@@ -8,6 +8,7 @@ Courtesy of stats.govt.nz
 
 3. As a user, I want to see bars animate across the page as view them
 
+## Getting started
 
 <!-- # A starter webpack project for React
 
