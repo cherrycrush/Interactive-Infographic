@@ -1,24 +1,15 @@
-import React, {useState, useEffect} from 'react'
-import {getGreeting} from '../apiClient'
+import React from 'react'
+import Zoom from 'react-reveal/Zoom'
+import Opening from './Opening'
+import Population from './Population'
 
 const App = () => {
-
-  const [greeting, setGreeting] = useState('')
-  const [count, setCount] = useState(0)
-
-  useEffect(() => {
-    getGreeting()
-      .then((greeting) => {
-        console.log(greeting)
-        setGreeting(greeting)
-      })
-  }, [count])
-
   return (
     <>
-    {count}
-    <h1>{greeting}</h1>
-    <button onClick={() => setCount(count + 1)}>Click</button>
+      <Zoom>
+        <Opening />
+      </Zoom>
+      <Population />
     </>
   )
 }

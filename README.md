@@ -1,4 +1,15 @@
-# A starter webpack project for React
+# An interactive infographic on the NZ population (2018)
+Courtesy of stats.govt.nz
+
+## User stories
+1. As a user, I want to see a bunch of stats of NZ that appear as you scroll down the page
+
+2. As a user, I want to see an interactive map
+
+3. As a user, I want to see bars animate across the page as view them
+
+
+<!-- # A starter webpack project for React
 
 This is a starter project that uses webpack to transpile and bundle ES6 React code. To use, consider these steps:
 
@@ -25,4 +36,4 @@ and in the other:
 npm run server
 ```
 The client will be available on http://localhost:8080 and the server on http://localhost:3000. Note that you will still need to manage CORS between the two, as they are on different ports.
-
+ -->
