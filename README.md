@@ -1,5 +1,5 @@
 # An interactive infographic on the NZ population (2018)
-Courtesy of stats.govt.nz
+Source at stats.govt.nz
 
 ## User stories
 1. As a user, I want to see a bunch of stats of NZ that appear as you scroll down the page

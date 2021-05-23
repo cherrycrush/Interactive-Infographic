@@ -8,7 +8,7 @@ export default function Population () {
     <>
       <div className='population'>
         <Bounce delay={3200}>
-          <h1>Our population</h1>
+          <h1 className='heading'>Our population</h1>
           <p>4,699,755 is our census usually resident population count in 2018.
             In our village of 100, each person represents around 47,000 people.
           </p>
