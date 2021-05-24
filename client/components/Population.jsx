@@ -22,7 +22,18 @@ export default function Population () {
               <div className='maori'>17</div>
             </Spin>
           </div>
+          <div className='description'>
+            <p>are female</p>
+            <p>are male</p>
+            <p>people in the village are of Maori ethnicity</p>
+          </div>
         </Fade>
+        <div className='box'>
+          <p>Between 2013 and 2018, our population grew by 10.8%</p>
+        </div>
+        <div className='alt-box'>
+          <p>The median age in our village is 37.4 years</p>
+        </div>
       </div>
     </>
   )
