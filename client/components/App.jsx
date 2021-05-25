@@ -1,5 +1,6 @@
 import React from 'react'
 import Zoom from 'react-reveal/Zoom'
+import Birthplace from './Birthplace'
 import Opening from './Opening'
 import Population from './Population'
 
@@ -10,6 +11,7 @@ const App = () => {
         <Opening />
       </Zoom>
       <Population />
+      <Birthplace />
     </>
   )
 }
