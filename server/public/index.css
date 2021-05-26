@@ -1,24 +1,83 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-body {
+.opening {
   font: 100% "Roboto", sans-serif;
+  margin: 0 auto;
+  text-align: left;
+  width: 50%;
+  background-color: #000028;
+  padding: 2rem;
 }
-body h1 {
+.opening h1 {
   font-weight: 600;
 }
 
-.opening {
+.population {
+  font: 100% "Roboto", sans-serif;
   margin: 0 auto;
-  color: white;
   text-align: left;
-  background-color: #000028;
   width: 50%;
+}
+.population h1 {
+  font-weight: 600;
+}
+
+.birthplace {
+  font: 100% "Roboto", sans-serif;
+  margin: 0 auto;
+  text-align: left;
+  width: 50%;
+}
+.birthplace h1 {
+  font-weight: 600;
+}
+
+.heading {
+  border-top: 2px solid black;
+  padding: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
   padding: 2rem;
 }
 
-.population {
-  width: 50%;
+.female {
+  background-color: #00a3a8;
+  color: white;
+  font-weight: 900;
+  border-radius: 50%;
   margin: 0 auto;
+  font-size: 32px;
   padding: 2rem;
+}
+
+.male {
+  background-color: #00a3a8;
+  color: white;
+  font-weight: 900;
+  border-radius: 50%;
+  margin: 0 auto;
+  font-size: 32px;
+  padding: 2rem;
+  background-color: blue;
+}
+
+.maori {
+  background-color: #00a3a8;
+  color: white;
+  font-weight: 900;
+  border-radius: 50%;
+  margin: 0 auto;
+  font-size: 32px;
+  padding: 2rem;
+  background-color: tomato;
+}
+
+p {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=index.css.map */
