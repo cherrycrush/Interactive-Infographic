@@ -13,6 +13,7 @@ const App = () => {
     <>
       <Zoom>
         <Opening />
+        <Opening />
       </Zoom>
       <Bounce>
         <Population />
