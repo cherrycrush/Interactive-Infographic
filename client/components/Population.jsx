@@ -2,6 +2,7 @@ import React from 'react'
 import Bounce from 'react-reveal/Bounce'
 import Spin from 'react-reveal/Spin'
 import Fade from 'react-reveal/Fade'
+import Zoom from 'react-reveal/Zoom'
 
 export default function Population () {
   return (
@@ -28,12 +29,15 @@ export default function Population () {
             <p>people in the village are of Maori ethnicity</p>
           </div>
         </Fade>
-        <div className='box'>
-          <p>Between 2013 and 2018, our population grew by 10.8%</p>
-        </div>
-        <div className='alt-box'>
-          <p>The median age in our village is 37.4 years</p>
-        </div>
+        <br></br>
+        <Zoom delay={7000}>
+          <div className='box'>
+            <p>Between 2013 and 2018, our population grew by 10.8%</p>
+          </div>
+          <div className='alt-box'>
+            <p>The median age in our village is 37.4 years</p>
+          </div>
+        </Zoom>
       </div>
     </>
   )
