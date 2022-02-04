@@ -17,7 +17,7 @@ const App = () => {
       <Bounce>
         <Population />
       </Bounce>
-      <Bounce>
+      <Bounce delay={8500}>
         <Birthplace />
       </Bounce>
       <Ethnicgroups />

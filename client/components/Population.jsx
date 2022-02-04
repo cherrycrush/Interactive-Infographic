@@ -26,7 +26,7 @@ export default function Population () {
           <div className='description'>
             <p>are female</p>
             <p>are male</p>
-            <p>people in the village are of Maori ethnicity</p>
+            <p>are Maori</p>
           </div>
         </Fade>
         <br></br>
